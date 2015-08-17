@@ -17,6 +17,7 @@ import android.os.Environment;
 import android.support.annotation.NonNull;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
@@ -54,8 +55,7 @@ import com.nispok.snackbar.listeners.ActionClickListener;
 import java.io.File;
 import java.io.InputStream;
 
-
-public class DetailActivity extends ActionBarActivity {
+public class DetailActivity extends AppCompatActivity {
     private static final int ACTIVITY_CROP = 13451;
     private static final int ACTIVITY_SHARE = 13452;
 

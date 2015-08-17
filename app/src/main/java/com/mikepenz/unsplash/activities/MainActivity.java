@@ -3,6 +3,7 @@ package com.mikepenz.unsplash.activities;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -22,8 +23,7 @@ import com.mikepenz.unsplash.R;
 import com.mikepenz.unsplash.models.ImageList;
 import com.mikepenz.unsplash.network.UnsplashApi;
 
-
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
     public enum Category {
         ALL(1000),
         FEATURED(1001),
